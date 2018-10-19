@@ -15,7 +15,15 @@ public class NizBrojevi {
 	}
 
 	public int najveciUNizu(int[] niz) {
-		return 0;	}
+		int najveciUNizu = niz [0];
+		for(int i = 1; i < niz.length; i++) {
+			if(najveciUNizu < niz[1]) {
+				najveciUNizu = niz[i];
+			}
+		}
+		return najveciUNizu;	
+	}
+	
 	public int suma(int[] niz) {
 		
 		return 0;
