@@ -13,7 +13,13 @@ public class NizBrojevi {
 		}
 		return najmanjiUNizu;
 	}
-
+	
+	
+	
+	
+	
+	
+	
 	public int najveciUNizu(int[] niz) {
 		int najveciUNizu = niz [0];
 		for(int i = 1; i < niz.length; i++) {
@@ -29,6 +35,12 @@ public class NizBrojevi {
 		return 0;
 	}
 	public int prosjek(int[] niz) {
-		return 0;
+		int suma=0;
+		int prosjek=0;
+		for(int i=0;i<niz.length;i++) {
+			suma+=niz[i];
+			prosjek=suma/niz.length;
+		}
+		return prosjek;
 		}
 }
