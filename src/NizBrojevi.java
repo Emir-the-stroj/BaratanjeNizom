@@ -31,8 +31,12 @@ public class NizBrojevi {
 	}
 	
 	public int suma(int[] niz) {
+		int suma = 0;
+		for(int i = 0; i < niz.length; i++) {
+			suma += niz[i];
+		}
+		return suma;
 		
-		return 0;
 	}
 	public int prosjek(int[] niz) {
 		int suma=0;
